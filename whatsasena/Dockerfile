@@ -1,8 +1,8 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/ameer-kallumthodi/pikachu /root/WhatsAsenaDuplicated
+RUN git clone https://github.com/zimbabwe-bots/whatsapp-bot /root/WhatsAsenaDuplicated
 WORKDIR /root/WhatsAsenaDuplicated/
-ENV TZ=Europe/Istanbul
+ENV TZ=Africa/Harare
 RUN npm install supervisor -g
 RUN yarn install --no-audit
 
