@@ -8,7 +8,7 @@
     "success_url": "https://t.me/AsenaSupport",
     "stack": "container",
     "env": {
-        "CONNECTION_CODE": {
+        "ZIM_CODE": {
             "description": "Asena session changed! Type your Pikachu code here.",
             "required": true
         },
