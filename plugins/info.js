@@ -14,7 +14,7 @@ Asena.addCommand({pattern: 'info', fromMe: false, desc: 'Shows bot information a
     
     
    
-  r_text[0] = Config.https://i.imgur.com/JRtatcV.jpg;
+  var skl = await axios.get("https://i.imgur.com/EyKEtLQ.jpeg", { responseType: 'arraybuffer' })
     
     
     var i = Math.floor(1*Math.random())
