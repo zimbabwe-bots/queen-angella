@@ -7,22 +7,27 @@ const Lang = Language.getString('wallpaper');
 
 Asena.addCommand({pattern: 'git', fromMe: false, desc: "Gives github link of the bot"}, (async (message, match) => {
 
-    var skl = await axios.get("https://images.wallpapersden.com/image/download/pokemon-detective-pikachu-4k_a2lrZmWUmZqaraWkpJRsZ2WtbGdl.jpg", { responseType: 'arraybuffer' })
+    var skl = await axios.get("https://i.imgur.com/EyKEtLQ.jpeg", { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(skl.data), MessageType.image, {mimetype: Mimetype.png, caption: `*Pikachu bot created by Ameer Suhail*
-*Creator number : wa.me/919946432377?text=Hi%20Ameer%20Suhail.%20*
+    await message.sendMessage(Buffer(skl.data), MessageType.image, {mimetype: Mimetype.png, caption: `*𝐁𝐎𝐓 𝐍𝐀𝐌𝐄:QUEEN ANGELLA*
+ 
+◼◼❏❏©drips ®zimbots
 
-*Bot setting video : https://youtu.be/_D4ZYuUSXjs*
+*𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 𝐍𝐔𝐌𝐁𝐄𝐑 : wa.me/27634090203?text=Hii%20DripsMemes%20Sir.%20*
 
-*Githublink (Setup)  :    https://github.com/ameer-kallumthodi/pikachu*
+ *𝐓𝐎 𝐂𝐇𝐄𝐂𝐊 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 .update   To update Bot .update now*
 
-*Audio commads :   https://github.com/ameer-kallumthodi/pikachu/tree/master/uploads*
+ *𝐁𝐎𝐓 𝐌𝐀𝐊𝐈𝐍𝐆 𝐕𝐈𝐃𝐄𝐎 : https://www.youtube.com/channel/UC2hESq6BCRMCU-LKpl7Oq8g*
+     
+ *Instagram id: https://www.instagram.com/zim_hot_chicks_official?utm_medium=copy_link*
 
-*Sticker commads : https://github.com/ameer-kallumthodi/pikachu/tree/master/uploads*
+ *𝐃𝐑𝐈𝐏𝐒 𝐎𝐅𝐂  𝐙𝐈𝐌-𝐓𝐄𝐂𝐇𝐒 : website coming soon*
 
-*Video For Setting Bot : https://youtu.be/_D4ZYuUSXjs* 
+ *𝐆𝐈𝐓𝐇𝐔𝐁 𝐋𝐈𝐍𝐊 : https://github.com/zim-bot/queen-angella*
 
-*For More Updates Subscribe The Channel ☝*
+ *QUEEN ANGELLA 𝐂𝐑𝐄𝐀𝐓𝐄𝐃 𝐁𝐘  𝐃𝐑𝐈𝐏𝐒 𝐌𝐄𝐌𝐄𝐒 𝐒𝐔𝐁𝐒𝐂𝐑𝐈𝐁𝐄 𝐓𝐎 𝐌𝐘 𝐘𝐎𝐔𝐓𝐔𝐁𝐄 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐃𝐑𝐈𝐏𝐒 𝐎𝐅𝐂 𝐅𝐎𝐑 𝐔𝐏𝐃𝐀𝐓𝐄𝐒*
+
+ ◼◼❏❏©drips ®zimbots
 `}) 
 
 }));
