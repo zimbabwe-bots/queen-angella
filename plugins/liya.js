@@ -7,7 +7,7 @@ const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys'
 const fs = require('fs');
 const axios = require('axios');
 const Config = require('../config');
-const lol = "need some word\n🗡🗡enthelum ezhuthu nenba"
+const lol = "need some word\n🗡🗡"
     
 
     if (Config.WORKTYPE == 'private') {
