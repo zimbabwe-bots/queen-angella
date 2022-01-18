@@ -10,7 +10,7 @@ Asena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (messag
     var r_text = new Array ();
     
     
-    r_text[0] = "https://i.imgur.com/JRtatcV.jpg";
+    r_text[0] = "https://i.imgur.com/vUdEZMv.jpg";
     
     
     var i = Math.floor(1*Math.random())
@@ -142,7 +142,7 @@ Asena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (messag
 ⚠️ex  attp Angella
 ■□■□■□■□■□■□■□■□■□■□
 ═════💢ANGELLA💢═════
-▣▣▣▣▣▣▣▣▣dripsmemes▣▣▣▣▣▣▣▣▣▣▣
+▣▣▣▣▣▣dripsmemes▣▣▣▣▣▣
 
 `}) 
 
